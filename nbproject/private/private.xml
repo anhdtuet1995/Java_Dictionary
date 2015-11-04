@@ -4,7 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/E:/support_java/Dictionary/src/dictionary/JDBC.java</file>
+            <file>file:/E:/support_java/Dictionary/src/dictionary/SearchWordVietNam.java</file>
+            <file>file:/E:/support_java/Dictionary/src/dictionary/SearchWord.java</file>
+            <file>file:/E:/support_java/Dictionary/src/dictionary/AddWord.java</file>
             <file>file:/E:/support_java/Dictionary/src/dictionary/ListWords.java</file>
+            <file>file:/E:/support_java/Dictionary/src/dictionary/EditWord.java</file>
             <file>file:/E:/support_java/Dictionary/src/dictionary/Dictionary.java</file>
         </group>
     </open-files>

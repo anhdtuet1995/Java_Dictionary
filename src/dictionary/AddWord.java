@@ -48,12 +48,14 @@ public class AddWord extends JFrame{
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(eng.getText().length() == 0 && vie.getText().length() == 0){
-                    JOptionPane.showMessageDialog( AddWord.this, "Không được để trống!","Add Word", JOptionPane.ERROR_MESSAGE);
-                }
-                else if(word.containsKey(eng.getText())){
+                if(word.containsKey(eng.getText()) && eng.getText().length() > 0 && vie.getText().length() > 0){
                     JOptionPane.showMessageDialog( AddWord.this, "Từ này đã có trong từ điển!","Add Word", JOptionPane.ERROR_MESSAGE);
                 }
+                
+                else if(eng.getText().length() == 0 && vie.getText().length() == 0){
+                    JOptionPane.showMessageDialog( AddWord.this, "Không được để trống!","Add Word", JOptionPane.ERROR_MESSAGE);
+                }
+                
                 else{
                     Vector value = new Vector();
                     value.add(eng.getText());
@@ -95,5 +97,9 @@ public class AddWord extends JFrame{
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setVisible(true);
         pack();
+    }
+    
+    public static void main(String[] args ){
+        new AddWord();
     }
 }

@@ -57,5 +57,6 @@ public class ListWords extends JFrame{
         setVisible(true);
         pack(); // get requried size based on components
     }
-
+    
+    
 }

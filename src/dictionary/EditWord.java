@@ -60,7 +60,4 @@ public class EditWord extends JFrame{
         pack(); // get requried size based on components
     }
     
-    public static void main(String[] args){
-        new EditWord();
-    }
 }
